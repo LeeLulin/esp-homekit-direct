@@ -1,0 +1,48 @@
+[submodule "lwip/lwip"]
+	path = lwip/lwip
+	url = https://github.com/ourairquality/lwip.git
+[submodule "extras/mbedtls/mbedtls"]
+	path = extras/mbedtls/mbedtls
+	url = https://github.com/ARMmbed/mbedtls.git
+[submodule "extras/jsmn/jsmn"]
+	path = extras/jsmn/jsmn
+	url = https://github.com/zserge/jsmn.git
+[submodule "bootloader/rboot"]
+	path = bootloader/rboot
+	url = https://github.com/raburton/rboot.git
+[submodule "extras/spiffs/spiffs"]
+	path = extras/spiffs/spiffs
+	url = https://github.com/pellepl/spiffs.git
+[submodule "tests/unity"]
+	path = tests/unity
+	url = https://github.com/ThrowTheSwitch/Unity.git
+[submodule "tests/fs-test"]
+	path = tests/fs-test
+	url = https://github.com/sheinz/fs-test
+[submodule "extras/bearssl/BearSSL"]
+	path = extras/bearssl/BearSSL
+	url = https://www.bearssl.org/git/BearSSL
+[submodule "extras/http-parser/http-parser"]
+	path = extras/http-parser/http-parser
+	url = https://github.com/nodejs/http-parser
+[submodule "extras/crc_generic/crc_lib"]
+	path = extras/crc_generic/crc_lib
+	url = https://github.com/Zaltora/crc_generic_lib.git
+[submodule "extras/libesphttpd/libesphttpd"]
+	path = extras/libesphttpd/libesphttpd
+	url = https://github.com/nochkin/libesphttpd
+[submodule "extras/libesphttpd/libesphttpd/lib/heatshrink"]
+	path = extras/libesphttpd/libesphttpd/lib/heatshrink
+	url = https://github.com/atomicobject/heatshrink
+[submodule "extras/multipwm"]
+	path = extras/multipwm
+	url = https://github.com/nochkin/multipwm
+[submodule "lvgl/lvgl"]
+	path = lvgl/lvgl
+	url = https://github.com/littlevgl/lvgl.git
+[submodule "lvgl/lv_drivers"]
+	path = lvgl/lv_drivers
+	url = https://github.com/littlevgl/lv_drivers.git
+[submodule "lvgl/lv_examples"]
+	path = lvgl/lv_examples
+	url = https://github.com/littlevgl/lv_examples.git
