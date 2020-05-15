@@ -58,7 +58,7 @@ void led_write(bool on) {
 }
 
 void relay_write(bool on) {
-    gpio_write(relay_gpio, on ? 1 : 0);
+    gpio_write(relay_gpio, on ? 0 : 1);
     led_write(on);
 }
 
