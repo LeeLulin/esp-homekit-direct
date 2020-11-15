@@ -12,6 +12,8 @@ https://github.com/Gruppio/Sonoff-Homekit<br>
 ### 下载
     git clone https://github.com/LeeLulin/esp-homekit-direct.git
 注意：使用之前需要先配置好 [esp-open-sdk](https://github.com/pfalcon/esp-open-sdk) 的编译环境<br>
+参考：
+[在 Ubuntu 上搭建 esp-open-sdk 环境](https://leelulin.xyz/2020/03/14/esp-homekit-01/)、[在 Docker 中使用 esp-open-sdk 编译固件](https://leelulin.xyz/2020/10/06/docker-esp/)
 本项目示例型号为 `esp8266-01s`，如果使用其他型号，需要修改 `/devices/switch/main.c` 文件中的引脚定义
 
 ### 编译固件
@@ -41,7 +43,7 @@ https://github.com/Gruppio/Sonoff-Homekit<br>
     esptool.py -p [端口] -b 115200 write_flash -fs 1MB -fm dout -ff 40m 0x0 rboot.bin 0x1000 blank_config.bin 0x2000 switch.bin
 
 ### 连接HomeKit
-1.手机wifi搜索并连接名称为 `Sonoff Switch-XXXXXXX` 的热点，配置wifi信息<br>
+1.手机wifi搜索并连接名称为 `Switch-XXXXXXX` 的热点，配置wifi信息<br>
 
 2.打开 `家庭` App<br>
 
