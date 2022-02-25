@@ -35,8 +35,8 @@ https://github.com/Gruppio/Sonoff-Homekit<br>
 
 4.清空Flash
 
-    esptool.py -p [端口] earse_flash
-    例：esptool.py -p COM4 earse_flash
+    esptool.py -p [端口] erase_flash
+    例：esptool.py -p COM4 erase_flash
 
 5.烧录固件
 
