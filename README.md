@@ -13,7 +13,7 @@ https://github.com/Gruppio/Sonoff-Homekit<br>
     git clone https://github.com/LeeLulin/esp-homekit-direct.git
 注意：使用之前需要先配置好 [esp-open-sdk](https://github.com/pfalcon/esp-open-sdk) 的编译环境<br>
 参考：
-[在 Ubuntu 上搭建 esp-open-sdk 环境](https://leelulin.xyz/2020/03/14/esp-homekit-01/)、[在 Docker 中使用 esp-open-sdk 编译固件](https://leelulin.xyz/2020/10/06/docker-esp/)
+[在 Ubuntu 上搭建 esp-open-sdk 环境](https://blog.leelulin.xyz/2020/03/14/esp-homekit-01/)、[在 Docker 中使用 esp-open-sdk 编译固件](https://blog.leelulin.xyz/2020/10/06/docker-esp/)
 本项目示例型号为 `esp8266-01s`，如果使用其他型号，需要修改 `/devices/switch/main.c` 文件中的引脚定义
 
 ### 编译固件
